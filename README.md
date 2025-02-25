@@ -1,4 +1,134 @@
 # LightTrade
+LightTrade
+
+LightTrade is a fully customizable plugin for secure item and currency trading in Minecraft.
+
+LightTrade is a powerful and high-performance plugin designed to facilitate safe trades between players on your Minecraft server. With this plugin, your server will become a secure place for trading, allowing players to exchange items and currency without the risk of fraud. LightTrade is perfect for servers where economy and trading play a vital role, helping minimize potential conflicts or misunderstandings between players.
+
+Key Features:
+
+Trade Requests: Players can send trade requests to other players using simple commands. The plugin makes it easy to initiate trade deals between any players on the server.
+
+Accepting and Rejecting Requests: After receiving a request, players can accept or decline it using the /trade accept or /trade reject commands. This ensures that accidental or unwanted trades are avoided, requiring explicit consent from both parties.
+
+Trade Interface: When a trade request is accepted, a convenient and customizable interface opens with visual buttons for item placement. The interface lets players see exactly what they are about to trade and decide whether to proceed with the deal. The interface includes special slots for items and currency, which can be customized via the plugin's configuration file. It also has buttons for confirming or canceling the trade.
+
+Trade Security: LightTrade ensures full trade security by ensuring both players agree to the terms before any items or currency are exchanged. The plugin prevents trade fraud, building trust between players.
+
+Currency Support: The plugin integrates with the popular Vault plugin, enabling the use of currency in trades. You can set up various items, such as gold or other currencies, as part of the exchange. This allows economy-driven servers, such as roleplay servers, to integrate currency into the item trading process.
+
+Full Customization: All messages, notifications, and interface elements can be customized in the configuration file. This lets you tailor the plugin to fit your server's style, using the desired colors, text, and item slots. You can also configure security and economy system settings.
+
+Permission System: The plugin comes with a built-in permission system that allows administrators to control who can send, accept, or reject trade requests. This makes it possible to finely tune access to trading features for different groups of players, including administrators, moderators, and regular users.
+
+Multi-Language Support: LightTrade supports multilingual configurations, making it easy to adapt the plugin for different languages. Each message in the plugin can be localized for your community, making it ideal for servers with an international audience.
+
+How LightTrade Works:
+
+Trade Request:
+A player sends the /trade <player> command to initiate a trade with another player. If the target is another player, they will receive a trade request notification.
+
+Accept or Decline:
+The recipient of the request can use the /trade accept command to accept the request or /trade reject to decline it.
+
+Opening the Interface:
+When the trade request is accepted, a visual interface opens where players can place items for trade. The interface includes buttons for confirming or canceling the trade.
+
+Completing the Trade:
+Once both players place their items and confirm the trade, the transaction is completed. Items are exchanged between the players, and the trade is recorded.
+
+Configuration and Customization:
+
+Messages:
+All messages the plugin sends to players can be configured. You can modify notification texts, error messages, and hints.
+
+Interface:
+Item slots, border colors, buttons, and other interface elements can be customized in the configuration file.
+
+Currency Settings:
+The plugin allows you to configure the currency players can use in trades, as well as set special slots for currency.
+
+Example Configuration:
+
+yaml
+Копировать
+Редактировать
+LightTrade Configuration
+messages:
+  trade-request-sent: "You have sent a trade request to {player}."
+  trade-request-received: "You have received a trade request from {player}."
+  trade-no-request: "You have no pending trade requests."
+  trade-clickable-accept: "Click to accept the trade request."
+  trade-clickable-reject: "Click to reject the trade request."
+  trade.gui-title: "Trade with {player}"
+  gui.accept-button: "Accept Trade"
+  gui.cancel-button: "Cancel Trade"
+trade:
+  item-slot: 11
+  money-slot: 15
+  currency: true
+permissions:
+  lighttrade.send
+  lighttrade.accept
+  lighttrade.reject
+Permission System:
+
+lighttrade.send: Allows sending trade requests.
+lighttrade.accept: Allows accepting trade requests.
+lighttrade.reject: Allows rejecting trade requests.
+Advantages:
+
+Security: Protects players from fraud during trades.
+Ease of Use: All commands are easy to use, and the trade process is intuitive.
+Flexibility and Customization: Easily adapts to any server needs, whether it’s a roleplay server or an economy-driven one.
+Compatibility: Works with popular economy plugins like Vault and is compatible with Minecraft 1.12 and above.
+Conclusion:
+
+LightTrade is the perfect tool for Minecraft servers that want to provide their players with a secure and convenient way to trade items and currency. With its ease of use, powerful customization options, and security features, LightTrade will build trust between players and help create a fair trading environment on your server.
+
+Requirements:
+
+Minecraft 1.12 and above.
+Vault (for currency use). Supports most economy plugins and permission management plugins.
+LightTrade is not just a trading plugin—it's a secure and flexible tool that will become an integral part of your Minecraft server world!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LightTrade — Полностью настраиваемый плагин для безопасного обмена предметами и валютой в Minecraft
 
 LightTrade — это мощный и высокоэффективный плагин для Minecraft, предназначенный для организации безопасных обменов между игроками. С этим плагином ваш сервер станет безопасным местом для торговли, где игроки смогут обмениваться предметами и валютой без риска мошенничества. LightTrade идеально подходит для серверов, где экономика и обмен играют важную роль, и помогает минимизировать потенциальные конфликты или недоразумения между игроками.
