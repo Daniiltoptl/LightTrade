@@ -60,38 +60,70 @@ yaml
 # LightTrade Configuration
 
 messages:
-  trade-request-sent: "You have sent a trade request to {player}."
-  trade-request-received: "You have received a trade request from {player}."
+ trade-request-sent: "You have sent a trade request to {player}."
+
+ trade-request-received: "You have received a trade request from {player}."
+  
   trade-no-request: "You have no pending trade requests."
+  
   trade-clickable-accept: "Click to accept the trade request."
+ 
   trade-clickable-reject: "Click to reject the trade request."
+  
   trade.gui-title: "Trade with {player}"
+  
   gui.accept-button: "Accept Trade"
+ 
   gui.cancel-button: "Cancel Trade"
 
+
 trade:
+ 
   item-slot: 11
+  
   money-slot: 15
+ 
   currency: true
 
+
 permissions:
+ 
   - lighttrade.send
+ 
   - lighttrade.accept
+ 
   - lighttrade.reject
+
 Пермишн-система:
+
 lighttrade.send: Позволяет отправлять запросы на обмен.
+
 lighttrade.accept: Позволяет принимать запросы на обмен.
+
 lighttrade.reject: Позволяет отклонять запросы на обмен.
+
 Преимущества:
+
 Безопасность: Защищает игроков от мошенничества в процессе обмена.
+
 Легкость использования: Все команды просты в использовании, и процесс обмена интуитивно понятен.
+
 Гибкость и кастомизация: Легко адаптируется под любые нужды сервера, будь то ролевой сервер или сервер с экономикой.
+
 Совместимость: Плагин работает с популярными плагинами для экономики, такими как Vault, и совместим с Minecraft 1.12 и выше.
+
+
 Заключение:
+
+
 LightTrade — это идеальный инструмент для серверов Minecraft, которые хотят предоставить своим игрокам безопасный и удобный способ обмена предметами и валютой. Благодаря простоте использования, мощной кастомизации и системе безопасности, LightTrade обеспечит высокий уровень доверия между игроками и поможет создать честную торговую среду на вашем сервере.
 
+
 Требования:
+
 Minecraft 1.12 и выше.
+
 Vault (для использования валюты).
 Поддержка большинства экономических плагинов и плагинов для управления правами доступа.
+
 LightTrade — это не просто плагин для обмена, это безопасный и гибкий инструмент, который станет неотъемлемой частью вашего серверного мира Minecraft!
