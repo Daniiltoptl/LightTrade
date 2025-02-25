@@ -1,0 +1,30 @@
+# Конфигурация плагина SafeTrade
+
+# Пермишн для отправки трейда
+permissions:
+  safetrade.send: true
+  safetrade.accept: true
+  safetrade.reject: true
+
+# Сообщения
+messages:
+  trade-no-request: "You have no trade request."
+  trade-request-sent: "Trade request sent to {player}."
+  trade-request-received: "You received a trade request from {player}."
+  trade-clickable-accept: "Click here to accept the trade!"
+  trade-clickable-reject: "Click here to reject the trade."
+  trade.gui-title: "Trade with {player}"
+  gui.accept-button: "Confirm Trade"
+  gui.cancel-button: "Cancel Trade"
+  gui.border-color: "gray"
+
+# Настройки обмена
+trade:
+  item-slot: 10
+  money-slot: 12
+  currency: true
+
+# Цвета для кнопок
+gui:
+  accept-color: "green"
+  cancel-color: "red"

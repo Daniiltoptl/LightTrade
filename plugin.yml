@@ -1,0 +1,4 @@
+name: LightTrade
+version: '1.0'
+main: LightStudio.lightTrade.LightTrade
+api-version: '1.18'
